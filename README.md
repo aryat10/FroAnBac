@@ -2,45 +2,37 @@
 
 ## Overview
 
-Welcome to the **FroAndBac** repository! This repo is designed as a learning task to understand the connection between the frontend and backend parts of a website. It demonstrates how to integrate a React frontend with a Node.js/Express backend using Vite for the frontend build tool.
+**FroAndBac** is a repository created as part of a learning task to explore the connection between the frontend and backend parts of a website. This repository does not represent a complete project but serves as a practical exercise to understand the integration of frontend and backend technologies.
 
-## Repository Structure
+## Folder Structure
 
-The repository contains two main folders:
-
-1. **Backend**
-2. **Frontend**
+The repository is structured into two main folders:
 
 ### Backend
 
-- **Purpose**: Serves as the backend server using Express.js.
-- **Files**: Contains `server.js`, which includes an API endpoint to serve jokes.
-- **Setup**:
-  1. Navigate to the `Backend` folder.
-  2. Run `npm init` to create the `node_modules` folder.
-  3. Install required dependencies by running `npm install express`.
+The `Backend` folder contains the server-side code implemented using Express.js. It includes the necessary files to set up an Express server and define routes for serving data to the frontend.
 
 ### Frontend
 
-- **Purpose**: Serves as the frontend application using React and Vite.
-- **Files**: Contains `app.jsx`, which fetches and displays jokes from the backend.
-- **Setup**:
-  1. Navigate to the `Frontend` folder.
-  2. Run `npm init` to create the `node_modules` folder.
-  3. Install required dependencies by running `npm install react react-dom vite`.
+The `Frontend` folder houses the client-side code developed using React with Vite. It comprises files responsible for making requests to the backend server and rendering the received data on the web page.
 
-## Functionality
+## Integration Details
 
-In this task:
+The integration between the frontend and backend is achieved as follows:
 
-- The **Backend** folder's `server.js` file contains an array of jokes and an API endpoint that serves these jokes using a callback function.
-- The **Frontend** folder's `app.jsx` file fetches the jokes from the backend and displays them.
+- **Backend**: The `server.js` file in the `Backend` folder sets up an Express server and defines an API endpoint to serve jokes. These jokes are hardcoded into the server file.
 
-## Instructions
+- **Frontend**: The `app.jsx` file in the `Frontend` folder makes a request to the backend server to fetch jokes. Upon receiving the jokes, it renders them on the web page.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/FroAndBac.git
-   cd FroAndBac
+## Installation
 
+To set up the project, follow these steps:
+
+1. Navigate to the `Backend` folder and run `npm init` in the terminal to initialize the Node.js environment and install the required dependencies from `package.json`.
+
+2. Similarly, navigate to the `Frontend` folder and run `npm init` to set up the frontend environment.
+
+## Note
+
+The `node_modules` folders are not included in the repository. You need to install dependencies separately in both the `Backend` and `Frontend` folders using `npm init`.
 
