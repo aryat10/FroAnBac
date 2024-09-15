@@ -34,7 +34,7 @@ app.get('/jokes', (req, res) => {
             content: 'Why did the bicycle fall over? Because it was two-tired!'
         }
     ];
-    res.json(jokes); // Use res.json for JSON responses
+    res.json(jokes); // Use res.json for JSON respons
 });
 
 const port = process.env.PORT || 4000;
