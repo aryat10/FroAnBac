@@ -18,6 +18,7 @@ function App() {
   return (
     <>
       <h1>Jokes are here 😂</h1>
+      <p>This is a small attempt of learning on how to integrate Client side ( Frontend ) to Server side ( Backend )</p>
       {/* <p>Jokes : {jokes.length}</p> */}
       {
         jokes.map((joke,index)=>(
