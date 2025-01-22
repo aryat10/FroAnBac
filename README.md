@@ -1,8 +1,8 @@
-# FroAndBac
+# FrontnBack
 
 ## Overview
 
-**FroAndBac** is a repository created as part of a learning task to explore the connection between the frontend and backend parts of a website. This repository does not represent a complete project but serves as a practical exercise to understand the integration of frontend and backend technologies.
+**FrontnBack** is a repository created as part of a learning task to explore the connection between the frontend and backend parts of a website. This repository does not represent a complete project but serves as a practical exercise to understand the integration of frontend and backend technologies.
 
 ## Folder Structure
 
